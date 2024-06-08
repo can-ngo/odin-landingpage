@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+header,
+footer {
+    display: flex;
+    height: 70px;
+}
+
+header {
+    justify-content: space-between;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+}
+
